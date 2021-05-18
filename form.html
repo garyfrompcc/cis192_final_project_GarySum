@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CIS 192 Final Project_Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./form_style.css">
+</head>
+<body>
+    <div id="formDiv" class="container row d-flex justify-content-center">
+        <div class="col-md-8 ">
+        <form class="form-horizontal">
+            <fieldset>
+            
+            <legend class="text-center pt-4">CIS 193 Survey </legend>
+            
+            <div class="form-group">
+              <label class="col-md-12 control-label" for="textinput">1. Your Name:</label>  
+              <div class="col-md-5">
+              <input id="textinput" name="textinput" type="text" placeholder="Student Name" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-12 control-label" for="curriculum">2. How you like Cengage curriculum overall?</label>
+              <div class="col-md-12"> 
+                <label class="radio-inline" for="curriculum-0">
+                  <input type="radio" name="curriculum" id="curriculum-0" value="1" checked="checked">
+                  Poor
+                </label> 
+                <label class="radio-inline" for="curriculum-1">
+                  <input type="radio" name="curriculum" id="curriculum-1" value="2">
+                  Average
+                </label> 
+                <label class="radio-inline" for="curriculum-2">
+                  <input type="radio" name="curriculum" id="curriculum-2" value="3">
+                  Good
+                </label> 
+                <label class="radio-inline" for="curriculum-3">
+                  <input type="radio" name="curriculum" id="curriculum-3" value="4">
+                  Great
+                </label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-12 control-label" for="radios">3. How you like the reading material on Cengage?</label>
+              <div class="col-md-12"> 
+                <label class="radio-inline" for="radios-0">
+                  <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                  Poor
+                </label> 
+                <label class="radio-inline" for="radios-1">
+                  <input type="radio" name="radios" id="radios-1" value="2">
+                  Average
+                </label> 
+                <label class="radio-inline" for="radios-2">
+                  <input type="radio" name="radios" id="radios-2" value="3">
+                  Good
+                </label> 
+                <label class="radio-inline" for="radios-3">
+                  <input type="radio" name="radios" id="radios-3" value="4">
+                  Great
+                </label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-12 control-label" for="recommand">4. How likely you will recommand Cengage curriculum to others?</label>
+              <div class="col-md-12"> 
+                <label class="radio-inline" for="recommand-0">
+                  <input type="radio" name="recommand" id="recommand-0" value="1" checked="checked">
+                  Not likely at all
+                </label> 
+                <label class="radio-inline" for="recommand-1">
+                  <input type="radio" name="recommand" id="recommand-1" value="2">
+                  Average
+                </label> 
+                <label class="radio-inline" for="recommand-2">
+                  <input type="radio" name="recommand" id="recommand-2" value="3">
+                  Likely
+                </label> 
+                <label class="radio-inline" for="recommand-3">
+                  <input type="radio" name="recommand" id="recommand-3" value="4">
+                  Very likely
+                </label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-12 control-label" for="comment">5. Comment: </label>
+              <div class="col-md-12">                     
+                <textarea class="form-control" id="comment" name="comment"></textarea>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-success">submit</button>
+              </div>
+            
+            </fieldset>
+            </form>
+    </div>
+    </div>
+</body>

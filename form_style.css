@@ -1,0 +1,17 @@
+
+
+
+body{
+    background: rgba(114, 234, 240, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(114, 234, 240, 1.0), rgba(92, 184, 87, 1.0));
+    background: -moz-linear-gradient(top left, rgba(114, 234, 240, 1.0), rgba(92, 184, 87, 1.0));
+    background: linear-gradient(to bottom right, rgba(114, 234, 240, 1.0), rgba(92, 184, 87, 1.0));
+    height: 100vh;
+}
+
+
+#formDiv{
+    height: 90vh;
+    width: 80vw;
+    margin: 0 auto;
+}
